@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+section .top-area{
+    width: 100vw;
+    height: 60px;
+    background-color: mediumblue;
+}
+
+section .top-area .webtitle {
+color: red;
+}
