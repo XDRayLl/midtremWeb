@@ -12,25 +12,23 @@ body {
 header {
     margin: auto;
     background: linear-gradient(to top right, #18045E, #AD2F2F);
-    width: 1400px;
+    width: 1050px;
     height: 100px;
     display: flex;
     text-align: center;
     margin-top: 30px;
-    margin-right: 0px;
 }
 
 section {
-    width: 1664px;
+    width: 1248px;
     margin: auto;
     margin-top: 30px;
-    margin-right: 0px;
 }
 
 header .nav_buttons {
     font-family: 'Scheherazade New';
     font-size: 36px;
-    width: 280px;
+    width: 210px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -39,7 +37,6 @@ header .nav_buttons {
 }
 
 header .nav_buttons img {
-    width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -47,63 +44,38 @@ header .nav_buttons img {
 }
 
 section .teampicture img {
-    width: 994px;
-    height: 560px;
+    width: 745px;
+
 }
 
 section .teampicture {
     margin: auto;
-    width: 994px;
+    width: 745px;
     height: 560px;
 }
 
 section .block {
-    width: 1664px;
-    height: 525px;
+    width: 1248px;
+    /* height: 525px; */
     display: flex;
     margin: auto;
     margin-top: 15px;
     justify-content: space-between;
 }
 
-section .block .honoursText {
-    width: 761px;
-    height: 525px;
+section .block .AllText.honoursText {
+    
     background: linear-gradient(to top, #383057, #912F38);
     opacity: 66%;
     border-radius: 5px;
 
 }
 
-section .block .honoursText .Title {
-    font-family: 'Scheherazade New';
-    width: 761px;
-    height: 100px;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
 
-section .block .honoursText .Text {
-    width: 761px;
-    font-size: 24px;
-    color: white;
-    line-height: 50px;
-    font-family: 'Scheherazade New';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-
-}
 
 section .block .AllText {
-    width: 761px;
-    height: 525px;
+    width: 570px;
+    height: 446px;
     background-color: #732121;
     opacity: 66%;
     border-radius: 5px;
@@ -112,68 +84,41 @@ section .block .AllText {
 
 section .block .AllText .Title {
     font-family: 'Scheherazade New';
-    width: 761px;
-    height: 100px;
+    width: 570px;
+    height: 80px;
     font-size: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
 section .block .AllText .Text {
-    width: 761px;
+    width: 570px;
     font-size: 24px;
     color: white;
-    line-height: 50px;
+    line-height: 45px;
     font-family: 'Scheherazade New';
     font-style: normal;
     font-weight: 400;
     text-align: center;
-
+    margin-bottom: 5px;
+    padding: 0px 10px;
 }
 
-section .block .stadiumText {
-    width: 761px;
-    height: 525px;
+section .block .AllText.stadiumText {
     background: #383057;
     opacity: 66%;
     border-radius: 5px;
-
 }
 
-section .block .stadiumText .Title {
-    font-family: 'Scheherazade New';
-    width: 761px;
-    height: 100px;
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
 
-section .block .stadiumText .Text {
-    width: 761px;
-    font-size: 24px;
-    color: white;
-    line-height: 50px;
-    font-family: 'Scheherazade New';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-
-}
 
 section .block .Picture {
-    width: 761px;
-    height: 486px;
+    width: 570px;
+    /* height: 486px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,23 +126,24 @@ section .block .Picture {
 }
 
 section .block .Picture img.creater {
-    width: 289px;
-    height: 443px;
+    width: 216px;
+    /* height: 443px; */
 }
 
 section .block .Picture img.twentyfifteen {
-    width: 761px;
-    height: 441px;
+    width: 570px;
+    /* height: 441px; */
 }
 
 section .block .Picture .campnou {
-    width: 761px;
-    height: 424px;
+    width: 570px;
+    /* height: 424px; */
 }
 
 section .block .Picture .name {
-    width: 137px;
-    height: 43px;
+    /* width: 102px; */
+    /* height: 43px; */
+    margin-top: 10px;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -206,9 +152,10 @@ section .block .Picture .name {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: #181733;
     margin-top: 40px;
+    
 }
 
 footer .partner {
@@ -238,76 +185,62 @@ footer .partnerIcon{
     height: 173px;
     border-left: 2px solid #ECA100;
     justify-content: space-between;
-    align-content: flex-start;
-    width: 100%;
+
+    width: calc(100% - 98px);
+    margin:0px 49px;
 }
 
 footer .partnerIcon  a .nike{
-    width: 314px;
-    height: 112px;
-    margin-left: 245px;
+    width: 235px;
+    margin-left: 160px;
 }
 
 footer .partnerIcon a .spofity{
-    width: 266px;
-    height: 112px;
+    width: 280px;
 }
 
 footer .partnerIcon a .tv{
-    width: 519px;
-    height: 63px;
+    width: 370px;
+
     margin-top: 24px;
     margin-right: 37px;
 }
 
-
-footer .textArea{
+footer .midarea{
     height: 216px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 0px 140px;
 }
 
-footer .textArea .midarea{
+footer .midarea .contact{
     height: 216px;
-    display: flex;
+    width: 404px;
 }
 
-footer .textArea .midarea .contact{
-    height: 216px;
-    /* width: 539px; */
-}
-
-footer .textArea .midarea .contact .contacttitle{
+footer .midarea .contact .contacttitle{
     height: 70px;
-    /* width: 539px; */
+    width: 404px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Scheherazade New';
     font-weight:normal;
 }
 
-footer .textArea .midarea .contact .contactcontent{
+footer .midarea .contact .contactcontent{
     height: 132px;
-    width: 539px;
+    width: 404px;
     display: flex;
-    /* justify-content: center; */
     align-items: flex-start;
-    color: white;
-    font-size: 16px;
-    font-family: 'Scheherazade New';
-    font-weight:normal;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
 }
 
-footer .textArea .midarea .contact .contactcontent .line{
-    width: 539px;
+footer .midarea .contact .contactcontent .line{
+    width: 404px;
     text-align: center;
     color: white;
     font-size: 16px;
@@ -316,18 +249,19 @@ footer .textArea .midarea .contact .contactcontent .line{
     line-height: 200%;
 }
 
-footer .textArea .midarea .social{
-    width: 540px;
+footer .midarea .social{
+    width: 480px;
     height: 216px;
 }
 
-footer .textArea .midarea .buttonarea{
-    width: 540px;
+footer .midarea .buttonarea{
+    width: 480px;
     display: flex;
+    justify-content: space-between;
 }
 
-footer .textArea .midarea .social .socialtitle{
-    width: 412px;
+footer .midarea .social .socialtitle{
+    width: 100%;
     height: 55px;
     font-family: 'Gantari';
     font-weight: bold;
@@ -339,97 +273,64 @@ footer .textArea .midarea .social .socialtitle{
     color: white;
 }
 
-footer .textArea .midarea .social .FB{
-    width: 122px;
-    height: 95px;
-    margin-left: 14px;
+footer .midarea .social .buttonarea .content.FB{
     background-color: #3B5998;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
 }
 
-footer .textArea .midarea .social .X{
-    width: 122px;
-    height: 95px;
-    margin-left: 14px;
+footer .midarea .social .buttonarea .content.X{
     background-color: #55ACEE;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
 }
 
-footer .textArea .midarea .social .yt{
-    width: 122px;
-    height: 95px;
-    margin-left: 14px;
+footer .midarea .social .buttonarea .content.yt{
     background-color: #BB0000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
 }
 
-footer .textArea .midarea .social .IG{
-    width: 122px;
-    height: 95px;
-    margin-left: 14px;
+footer .midarea .social .buttonarea .content.ig{
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+
 }
 
 
-footer .textArea .midarea .social .background .content{
-    width: 100px;
-    height: 72px;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-direction: column;
+footer .midarea .social .content{
+    width: 115px;
+
 }
 
 
-footer .textArea .midarea .social .background .content img{
+footer .midarea .social .content img{
     width: 28px;
     height: 28px;
 }
 
-footer .textArea .midarea .social .background .ytimg img{
+footer .midarea .social .content .igicon{
     width: 28px;
-    height: 70px;
+    height: 28px;
 }
 
-footer .textArea .midarea .social .background .igimg .igicon{
-    width: 28px;
-    height: 70px;
-}
-
-
-footer .textArea .midarea .social .background .content .socialtext{
-    width: 100px;
-    height: 72px;
+footer .midarea .social  .content .socialtext{
+    width: 100%;
     margin-top: 15px;
+    margin-bottom: 5px;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-direction: column; */
 }
 
-footer .textArea .midarea .social .background .content .insidetext{
-    width: 100px;
-    height: 14px;
+footer .midarea .social .content .insidetext{
+    width: 100%;
     color: white;
     margin-top: 2px;
+    margin:0px 0px 0px 5px;
 }
 
-footer .textArea .midarea .support{
-    width: 540px;
+footer .midarea .support{
+    width: 405px;
     height: 216px;
 }
 
-footer .textArea .midarea .support .supporttitle{
-    width: 280px;
+footer .midarea .support .supporttitle{
+    width: 210px;
     height: 70px;
     color: white;
     line-height: 200%;
@@ -441,14 +342,14 @@ footer .textArea .midarea .support .supporttitle{
     margin-left: 130px;
 }
 
-footer .textArea .midarea .support .supportcontent{
+footer .midarea .support .supportcontent{
     display: flex;
 }
 
 
 
-footer .textArea .midarea .support .contentleft{
-    width: 140px;
+footer .midarea .support .contentleft{
+    width: 105px;
     height: 146px;
     color: white;
     line-height: 200%;
@@ -457,8 +358,8 @@ footer .textArea .midarea .support .contentleft{
     font-size: 20px;
     margin-left: 130px;
 }
-footer .textArea .midarea .support .contentright{
-    width: 140px;
+footer .midarea .support .contentright{
+    width: 105px;
     height: 146px;
     color: white;
     line-height: 200%;

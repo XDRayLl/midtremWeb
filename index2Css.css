@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #18045E, #AD2F2F);
+
+}
+
+header {
+    margin: auto;
+    background: linear-gradient(to top right, #18045E, #AD2F2F);
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    width: 1664px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+header .nav_buttons {
+    font-family: 'Scheherazade New';
+    font-size: 36px;
+    width: 280px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .nav_buttons img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .teampicture img {
+    width: 994px;
+    height: 560px;
+}
+
+section .teampicture {
+    margin: auto;
+    width: 994px;
+    height: 560px;
+}
+
+section .block {
+    width: 1664px;
+    height: 525px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+section .block .honoursText {
+    width: 761px;
+    height: 525px;
+    background: linear-gradient(to top, #383057, #912F38);
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .honoursText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .honoursText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .AllText {
+    width: 761px;
+    height: 525px;
+    background-color: #732121;
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .AllText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .AllText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .stadiumText {
+    width: 761px;
+    height: 525px;
+    background: #383057;
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .stadiumText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .stadiumText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .Picture {
+    width: 761px;
+    height: 486px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .block .Picture img.creater {
+    width: 289px;
+    height: 443px;
+}
+
+section .block .Picture img.twentyfifteen {
+    width: 761px;
+    height: 441px;
+}
+
+section .block .Picture .campnou {
+    width: 761px;
+    height: 424px;
+}
+
+section .block .Picture .name {
+    width: 137px;
+    height: 43px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
