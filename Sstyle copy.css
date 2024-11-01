@@ -12,8 +12,8 @@ body {
 header {
     margin: auto;
     background: linear-gradient(to top right, #18045E, #AD2F2F);
-    width: 1050px;
-    height: 100px;
+    width: 900px;
+    height: 70px;
     display: flex;
     text-align: center;
     margin-top: 30px;
@@ -27,7 +27,7 @@ section {
 
 header .nav_buttons {
     font-family: 'Scheherazade New';
-    font-size: 36px;
+    font-size: 26px;
     width: 210px;
     height: 100px;
     display: flex;
@@ -37,7 +37,7 @@ header .nav_buttons {
 }
 
 header .nav_buttons img {
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,6 +305,7 @@ footer .midarea .social .content img{
 footer .midarea .social .content .igicon{
     width: 28px;
     height: 28px;
+    margin: 2px 0px 0px 2px;
 }
 
 footer .midarea .social  .content .socialtext{
