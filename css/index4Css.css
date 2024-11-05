@@ -1,0 +1,86 @@
+@import url(https://fonts.google.com/share?selection.family=Noto+Sans:ital,wght@0,100..900;1,100..900|Scheherazade+New:wght@400;500;600;700);
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #18045E, #AD2F2F);
+
+}
+
+header {
+    margin: auto;
+    background: linear-gradient(to top right, #18045E, #AD2F2F);
+    width: 1080px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+section {
+    width: 1248px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+header .nav_buttons {
+    font-family: 'Scheherazade New';
+    font-size: 26px;
+    width: 216px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .nav_buttons img {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .picture img {
+    width: 1027px;
+}
+
+section .picture {
+    margin: auto;
+    margin-top: 30px;
+    width: 1175px;
+    height: 559px;
+}
+/*---------------------*/
+section .contenttext{
+    width: 900px;
+    margin: auto;
+}
+
+
+section .texttext{
+    font-family: 'Scheherazade New';
+    font-size: 18px;
+    line-height: 200%;
+    font-weight: normal;
+    color: white;  
+    display: flex;
+    justify-content: flex-start;
+}
+/*---------------------*/
+section .ChampionsLeague{
+    border: 2px solid black;  /* 设置边框 */
+    border-radius: 5px;
+    padding: 20px;            /* 设置内容与边框的距离 */
+    width: 1248px;
+    height: 220px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+}
+section .ChampionsLeague .CHpiture{
+    
+}
+section .ChampionsLeague .CHpiture .img{
+
+}
