@@ -1,0 +1,469 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #18045E, #AD2F2F);
+
+}
+
+header {
+    margin: auto;
+    background: linear-gradient(to top right, #18045E, #AD2F2F);
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+section {
+    width: 1664px;
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+header .nav_buttons {
+    font-family: 'Scheherazade New';
+    font-size: 36px;
+    width: 280px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .nav_buttons img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .teampicture img {
+    width: 994px;
+    height: 560px;
+}
+
+section .teampicture {
+    margin: auto;
+    width: 994px;
+    height: 560px;
+}
+
+section .block {
+    width: 1664px;
+    height: 525px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+section .block .honoursText {
+    width: 761px;
+    height: 525px;
+    background: linear-gradient(to top, #383057, #912F38);
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .honoursText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .honoursText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .AllText {
+    width: 761px;
+    height: 525px;
+    background-color: #732121;
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .AllText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .AllText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .stadiumText {
+    width: 761px;
+    height: 525px;
+    background: #383057;
+    opacity: 66%;
+    border-radius: 5px;
+
+}
+
+section .block .stadiumText .Title {
+    font-family: 'Scheherazade New';
+    width: 761px;
+    height: 100px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+section .block .stadiumText .Text {
+    width: 761px;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Scheherazade New';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+section .block .Picture {
+    width: 761px;
+    height: 486px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .block .Picture img.creater {
+    width: 289px;
+    height: 443px;
+}
+
+section .block .Picture img.twentyfifteen {
+    width: 761px;
+    height: 441px;
+}
+
+section .block .Picture .campnou {
+    width: 761px;
+    height: 424px;
+}
+
+section .block .Picture .name {
+    width: 137px;
+    height: 43px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer {
+    width: 100vw;
+    background-color: #181733;
+    margin-top: 40px;
+}
+
+footer .partner {
+    width: 100%;
+    height: 43px;
+    display: flex;
+
+    align-items: center;
+    padding-left: 49px ;
+    /* justify-content: center; */
+    font-size: 24px;
+    color: #ECA100;
+    line-height: 14px;
+
+    /* MAIN PERTNERS */
+    font-family: 'Gabarito';
+    font-weight:900;
+    font-size: 24px;
+
+    /* or 58% */
+    letter-spacing: 0.01em;
+}
+
+footer .partnerIcon{
+    display: flex;
+    /* margin-left: 49px; */
+    height: 173px;
+    border-left: 2px solid #ECA100;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+}
+
+footer .partnerIcon  a .nike{
+    width: 314px;
+    height: 112px;
+    margin-left: 245px;
+}
+
+footer .partnerIcon a .spofity{
+    width: 266px;
+    height: 112px;
+}
+
+footer .partnerIcon a .tv{
+    width: 519px;
+    height: 63px;
+    margin-top: 24px;
+    margin-right: 37px;
+}
+
+
+footer .textArea{
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .textArea .midarea{
+    height: 216px;
+    display: flex;
+}
+
+footer .textArea .midarea .contact{
+    height: 216px;
+    /* width: 539px; */
+}
+
+footer .textArea .midarea .contact .contacttitle{
+    height: 70px;
+    /* width: 539px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 40px;
+    font-family: 'Scheherazade New';
+    font-weight:normal;
+}
+
+footer .textArea .midarea .contact .contactcontent{
+    height: 132px;
+    width: 539px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    color: white;
+    font-size: 16px;
+    font-family: 'Scheherazade New';
+    font-weight:normal;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+footer .textArea .midarea .contact .contactcontent .line{
+    width: 539px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Scheherazade New';
+    font-weight:normal;
+    line-height: 200%;
+}
+
+footer .textArea .midarea .social{
+    width: 540px;
+    height: 216px;
+}
+
+footer .textArea .midarea .buttonarea{
+    width: 540px;
+    display: flex;
+}
+
+footer .textArea .midarea .social .socialtitle{
+    width: 412px;
+    height: 55px;
+    font-family: 'Gantari';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer .textArea .midarea .social .FB{
+    width: 122px;
+    height: 95px;
+    margin-left: 14px;
+    background-color: #3B5998;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer .textArea .midarea .social .X{
+    width: 122px;
+    height: 95px;
+    margin-left: 14px;
+    background-color: #55ACEE;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer .textArea .midarea .social .yt{
+    width: 122px;
+    height: 95px;
+    margin-left: 14px;
+    background-color: #BB0000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer .textArea .midarea .social .IG{
+    width: 122px;
+    height: 95px;
+    margin-left: 14px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .textArea .midarea .social .background .content{
+    width: 100px;
+    height: 72px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+
+footer .textArea .midarea .social .background .content img{
+    width: 28px;
+    height: 28px;
+}
+
+footer .textArea .midarea .social .background .ytimg img{
+    width: 28px;
+    height: 70px;
+}
+
+footer .textArea .midarea .social .background .igimg .igicon{
+    width: 28px;
+    height: 70px;
+}
+
+
+footer .textArea .midarea .social .background .content .socialtext{
+    width: 100px;
+    height: 72px;
+    margin-top: 15px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+footer .textArea .midarea .social .background .content .insidetext{
+    width: 100px;
+    height: 14px;
+    color: white;
+    margin-top: 2px;
+}
+
+footer .textArea .midarea .support{
+    width: 540px;
+    height: 216px;
+}
+
+footer .textArea .midarea .support .supporttitle{
+    width: 280px;
+    height: 70px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 130px;
+}
+
+footer .textArea .midarea .support .supportcontent{
+    display: flex;
+}
+
+
+
+footer .textArea .midarea .support .contentleft{
+    width: 140px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 130px;
+}
+footer .textArea .midarea .support .contentright{
+    width: 140px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 20px;
+
+}
