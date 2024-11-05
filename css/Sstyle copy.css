@@ -274,56 +274,64 @@ footer .midarea .social .socialtitle{
     color: white;
 }
 
-footer .midarea .social .buttonarea .content.FB{
+footer .midarea .social .buttonarea a .content.FB{
     background-color: #3B5998;
 }
 
-footer .midarea .social .buttonarea .content.X{
+
+footer .midarea .social .buttonarea a .content.X{
     background-color: #55ACEE;
 }
 
-footer .midarea .social .buttonarea .content.yt{
+footer .midarea .social .buttonarea a .content.yt{
     background-color: #BB0000;
 }
 
-footer .midarea .social .buttonarea .content.ig{
+footer .midarea .social .buttonarea a .content.ig{
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
 
 }
 
 
-footer .midarea .social .content{
+footer .midarea .social .buttonarea a .content{
     width: 115px;
-
+    height: 90px;
 }
 
 
-footer .midarea .social .content img{
+
+footer .midarea .social .buttonarea a .content img{
     width: 28px;
     height: 28px;
 }
 
-footer .midarea .social .content .igicon{
+footer .midarea .social .buttonarea a .content .igicon{
     width: 28px;
     height: 28px;
     margin: 2px 0px 0px 2px;
 }
 
-footer .midarea .social  .content .socialtext{
+footer .midarea .social .buttonarea a .content .socialtext{
     width: 100%;
     margin-top: 15px;
     margin-bottom: 5px;
+    text-decoration: none;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-direction: column; */
 }
 
-footer .midarea .social .content .insidetext{
+footer .midarea .social .buttonarea a .content .insidetext{
     width: 100%;
     color: white;
     margin-top: 2px;
     margin:0px 0px 0px 5px;
+    text-decoration: none;
+}
+
+footer .midarea .social .buttonarea a{
+    text-decoration: none;
 }
 
 footer .midarea .support{
@@ -368,5 +376,4 @@ footer .midarea .support .contentright{
     font-family: 'Scheherazade New';
     font-weight: normal;
     font-size: 20px;
-
 }
