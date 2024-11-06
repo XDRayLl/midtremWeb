@@ -1,11 +1,25 @@
-@import url(https://fonts.google.com/share?selection.family=Noto+Sans:ital,wght@0,100..900;1,100..900|Scheherazade+New:wght@400;500;600;700);
+@font-face {
+    font-family: Barcelona;
+	src: url('../font/Barcelona-font/FCBARCELONA-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Helvetica-Neue;
+	src: url('../font/Helvetica-Neue/Helvetica-Neue-2.woff2') format('woff2');
+}
+
 * {
     box-sizing: border-box;
 
 }
+
+header a{
+    text-decoration: none;
+}
+
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #18045E, #AD2F2F);
+    background: #664D5B;
 
 }
 
@@ -25,7 +39,7 @@ section {
 }
 
 header .nav_buttons {
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 26px;
     width: 216px;
     height: 70px;
@@ -47,7 +61,7 @@ section .picture img {
 
 section .picture {
     margin: auto;
-    width: 745px;
+    width: 827px;
     height: 360px;
 }
 /*---------------------*/
@@ -57,7 +71,7 @@ section .contenttext{
 }
 
 section .top.title{
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
@@ -65,7 +79,7 @@ section .top.title{
 }
 
 section .title{
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
@@ -73,7 +87,7 @@ section .title{
 }
 
 section .bottom.title{
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
@@ -81,7 +95,7 @@ section .bottom.title{
 }
 
 section .texttext{
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 18px;
     line-height: 200%;
     font-weight: normal;
@@ -111,7 +125,7 @@ footer .partner {
     line-height: 14px;
 
     /* MAIN PERTNERS */
-    font-family: 'Gabarito';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight:900;
     font-size: 24px;
 
@@ -167,7 +181,7 @@ footer .midarea .contact .contacttitle{
     align-items: flex-start;
     color: white;
     font-size: 35px;
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight:normal;
 }
 
@@ -184,7 +198,7 @@ footer .midarea .contact .contactcontent .line{
     text-align: center;
     color: white;
     font-size: 16px;
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight:normal;
     line-height: 200%;
 }
@@ -203,7 +217,7 @@ footer .midarea .buttonarea{
 footer .midarea .social .socialtitle{
     width: 100%;
     height: 55px;
-    font-family: 'Gantari';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 200%;
@@ -243,14 +257,14 @@ footer .midarea .social .buttonarea a .content img{
 }
 
 footer .midarea .social .buttonarea a .content .igicon{
-    width: 28px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
     margin: 2px 0px 0px 2px;
 }
 
 footer .midarea .social .buttonarea a .content .socialtext{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 5px;
     text-decoration: none;
     /* display: flex; */
@@ -262,9 +276,11 @@ footer .midarea .social .buttonarea a .content .socialtext{
 footer .midarea .social .buttonarea a .content .insidetext{
     width: 100%;
     color: white;
-    margin-top: 2px;
+    /* margin-top: 1px; */
     margin:0px 0px 0px 5px;
     text-decoration: none;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+
 }
 
 footer .midarea .social .buttonarea a{
@@ -281,7 +297,7 @@ footer .midarea .support .supporttitle{
     height: 70px;
     color: white;
     line-height: 200%;
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 40px;
     display: flex;
@@ -300,7 +316,7 @@ footer .midarea .support .contentleft{
     height: 146px;
     color: white;
     line-height: 200%;
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
     margin-left: 130px;
@@ -310,7 +326,7 @@ footer .midarea .support .contentright{
     height: 146px;
     color: white;
     line-height: 200%;
-    font-family: 'Scheherazade New';
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
 
