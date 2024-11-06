@@ -42,7 +42,7 @@ header .nav_buttons img {
     align-items: center;
 }
 section .picture img {
-    width: 1027px;
+    width: 1193px;
 }
 
 section .picture {
@@ -60,12 +60,14 @@ section .contenttext{
 
 section .texttext{
     font-family: 'Scheherazade New';
-    font-size: 18px;
-    line-height: 200%;
-    font-weight: normal;
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 400px;
     color: white;  
-    display: flex;
+    display: grid;
     justify-content: flex-start;
+    text-align:center;
+
 }
 /*---------------------*/
 section .ChampionsLeague{
@@ -73,14 +75,251 @@ section .ChampionsLeague{
     border-radius: 5px;
     padding: 20px;            /* 设置内容与边框的距离 */
     width: 1248px;
-    height: 220px;
+    height: 441px;
     text-align: center;
     font-size: 20px;
-    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 section .ChampionsLeague .CHpiture{
+    width: 644px;
+}
+section .ChampionsLeague .CHpiture img{
+    width: 644px;
+    height: 411px;
+}
+section .ChampionsLeague .title{
+    font-family: 'Scheherazade New';
+    font-weight: 700px;
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 731px;
+    text-align:left;
+    margin-bottom: 30px;
+}
+/*--------------------------------footer-------------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: #181733;
+    margin-top: 40px;
     
 }
-section .ChampionsLeague .CHpiture .img{
+
+footer .partner {
+    width: 100%;
+    height: 43px;
+    display: flex;
+
+    align-items: center;
+    padding-left: 49px ;
+    /* justify-content: center; */
+    font-size: 24px;
+    color: #ECA100;
+    line-height: 14px;
+
+    /* MAIN PERTNERS */
+    font-family: 'Gabarito';
+    font-weight:900;
+    font-size: 24px;
+
+    /* or 58% */
+    letter-spacing: 0.01em;
+}
+
+footer .partnerIcon{
+    display: flex;
+    /* margin-left: 49px; */
+    height: 173px;
+    border-left: 2px solid #ECA100;
+    justify-content: space-between;
+
+    width: calc(100% - 98px);
+    margin:0px 49px;
+}
+
+footer .partnerIcon  a .nike{
+    width: 235px;
+    margin-left: 160px;
+}
+
+footer .partnerIcon a .spofity{
+    width: 280px;
+}
+
+footer .partnerIcon a .tv{
+    width: 370px;
+
+    margin-top: 24px;
+    margin-right: 37px;
+}
+
+footer .midarea{
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 140px;
+}
+
+footer .midarea .contact{
+    height: 216px;
+    width: 404px;
+}
+
+footer .midarea .contact .contacttitle{
+    height: 70px;
+    width: 404px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 35px;
+    font-family: 'Scheherazade New';
+    font-weight:normal;
+}
+
+footer .midarea .contact .contactcontent{
+    height: 132px;
+    width: 404px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer .midarea .contact .contactcontent .line{
+    width: 404px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Scheherazade New';
+    font-weight:normal;
+    line-height: 200%;
+}
+
+footer .midarea .social{
+    width: 480px;
+    height: 216px;
+}
+
+footer .midarea .buttonarea{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .midarea .social .socialtitle{
+    width: 100%;
+    height: 55px;
+    font-family: 'Gantari';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer .midarea .social .buttonarea a .content.FB{
+    background-color: #3B5998;
+}
+
+footer .midarea .social .buttonarea a .content.X{
+    background-color: #55ACEE;
+}
+
+footer .midarea .social .buttonarea a .content.yt{
+    background-color: #BB0000;
+}
+
+footer .midarea .social .buttonarea a .content.ig{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
+
+}
+
+
+footer .midarea .social .buttonarea a .content{
+    width: 115px;
+    height: 90px;
+}
+
+
+footer .midarea .social .buttonarea a .content img{
+    width: 28px;
+    height: 28px;
+}
+
+footer .midarea .social .buttonarea a .content .igicon{
+    width: 28px;
+    height: 28px;
+    margin: 2px 0px 0px 2px;
+}
+
+footer .midarea .social .buttonarea a .content .socialtext{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+footer .midarea .social .buttonarea a .content .insidetext{
+    width: 100%;
+    color: white;
+    margin-top: 2px;
+    margin:0px 0px 0px 5px;
+    text-decoration: none;
+}
+
+footer .midarea .social .buttonarea a{
+    text-decoration: none;
+}
+
+footer .midarea .support{
+    width: 405px;
+    height: 216px;
+}
+
+footer .midarea .support .supporttitle{
+    width: 210px;
+    height: 70px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 130px;
+}
+
+footer .midarea .support .supportcontent{
+    display: flex;
+}
+
+
+
+footer .midarea .support .contentleft{
+    width: 105px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 130px;
+}
+footer .midarea .support .contentright{
+    width: 105px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: 'Scheherazade New';
+    font-weight: normal;
+    font-size: 20px;
 
 }
