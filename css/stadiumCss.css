@@ -97,9 +97,7 @@ section .texttext{
     font-size: 18px;
     line-height: 200%;
     font-weight: normal;
-    color: white;  
-    display: flex;
-    justify-content: flex-start;
+    color: white;
 }
 /*--------------------------------footer-------------------------------------*/
 
