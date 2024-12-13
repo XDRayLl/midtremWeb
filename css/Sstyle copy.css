@@ -59,13 +59,13 @@ header .nav_buttons img {
 
 section .teampicture img {
     width: 745px;
-
+    height: 100%;
 }
 
 section .teampicture {
     margin: auto;
     width: 745px;
-    height: 560px;
+    /* height: 560px; */
 }
 
 section .block {
