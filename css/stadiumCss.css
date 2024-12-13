@@ -33,8 +33,7 @@ header {
     margin-top: 30px;
 }
 section {
-    width: 1248px;
-    margin: auto;
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -56,13 +55,12 @@ header .nav_buttons img {
     align-items: center;
 }
 section .picture img {
-    width: 827px;
+    width: 100%;
 }
 
 section .picture {
     margin: auto;
     width: 827px;
-    height: 360px;
 }
 /*---------------------*/
 section .contenttext{
