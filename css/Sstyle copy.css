@@ -66,13 +66,22 @@ section .teampicture {
     /* height: 560px; */
 }
 
-section .block {
+section .block{
     width: 1248px;
     /* height: 525px; */
     display: flex;
     margin: auto;
     margin-top: 15px;
     justify-content: space-between;
+}
+
+section .block .desktop {
+    display: block;
+
+}
+
+section .block.mobile {
+    display: none;
 }
 
 section .block .AllText.honoursText {
@@ -82,7 +91,6 @@ section .block .AllText.honoursText {
     border-radius: 5px;
 
 }
-
 
 
 section .block .AllText {
@@ -389,4 +397,167 @@ footer .midarea .support .contentright{
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
+}
+
+@media (max-width:768px)
+{
+    header
+    {
+        width: 722px;
+        height: 43px;
+    }
+    header .nav_buttons
+    {
+        width: 144.4px;
+        height: 43px;
+        font-size: 20px;
+    }
+    header .nav_buttons img 
+    {
+        height: 43px;
+    }
+
+    section
+    {
+        width: 768px;
+    }
+
+    section .teampicture
+    {
+        width: 654px;
+        /* height: 178px; */
+    }
+
+    section .block.desktop
+    {
+        width: 722px;
+        margin: auto;
+    }
+
+    section .block.desktop .AllText
+    {
+        width: 356px;
+        height: 298px;
+    }
+
+    section .block.desktop .AllText .Title
+    {
+        width: 356px;
+        height: 72px;
+        margin: 0px;
+        font-size: 32px;
+    }
+
+    section .block.desktop .AllText .Text
+    {
+        width: 356px;
+        /* height: 207px; */
+        margin: 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section .block.desktop .Picture
+    {
+        width: 352px;
+        height: 316px;
+    }
+
+    section .block .Picture img.creater {
+        width: 173px;
+        /* height: 443px; */
+    }
+
+    section .block .Picture .name {
+        /* width: 102px; */
+        /* height: 43px; */
+        margin-top: 7px;
+        font-size: 16px;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    section .block .Picture img.twentyfifteen {
+        width: 355px;
+        /* height: 441px; */
+    }
+
+    section .block .Picture .campnou {
+        width: 322px;
+        /* height: 424px; */
+    }
+}
+
+@media(max-width:380px)
+{
+    header
+    {
+        max-width: 744px;
+
+    }
+
+
+    /* section .block.desktop{
+        display: none;
+    }
+
+    section .block.mobile{
+        display: block;
+        margin-top: 10px;
+    }
+
+    section .block {
+        width: 360px;
+        height: 313px;
+        display: flex;
+        margin: auto;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    section .block .AllText {
+        width: 344px;
+        height: 283px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 100%;
+    }
+
+    section .block .AllText .Title {
+        font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+        width: 344px;
+        height: 47px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    section .block .AllText .Text {
+        width: 294px;
+        font-size: 6px;
+        color: white;
+        line-height: 15px;
+
+        margin-bottom: 0px;
+        padding: 0px 0px;
+    }
+    section .block .Picture {
+        width: 81px;
+        height: 126px;
+        margin-top: 16px;
+    }
+    
+    section .block .Picture img.creater {
+        width: 81px;
+        height: 126px;
+    }
+
+    section .block .Picture .name {
+        width: 81px;
+        margin-top: 5px;
+        font-size: 5px;
+    } */
 }
