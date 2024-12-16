@@ -38,6 +38,14 @@ section {
     margin-top: 30px;
 }
 
+section .block.mobile{
+    display: none;
+}
+
+section .block.desktop{
+    display: block;
+}
+
 header .nav_buttons {
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 26px;
@@ -66,7 +74,7 @@ section .teampicture {
     /* height: 560px; */
 }
 
-section .block{
+section .block.desktop{
     width: 1248px;
     /* height: 525px; */
     display: flex;
