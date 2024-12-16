@@ -387,7 +387,78 @@ footer .midarea .support .contentright{
 
     footer
     {
-        
+        width: 100%;
+    }
+
+    footer .partner
+    {
+        width: 160px;
+        height: 27px;
+        font-size: 15px;
+        padding-left: 23px;
+    }
+
+    footer .partnerIcon {
+        width: 722px;
+        height: 86px;
+        margin: 0 23px 0 23px;
+    }
+
+    footer .partnerIcon a .nike{
+        width: 146px;
+        height: 52px;
+        margin-left: 43px;
+        margin-top: 12px;
+    }
+
+    footer .partnerIcon a .spofity {
+        width: 200px;
+    }
+
+    footer .partnerIcon a .tv {
+        width: 180px;
+        margin-top: 16px;
+        margin-right: 4px;
+    }
+
+    footer .midarea {
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    footer .midarea .contact {
+        height: 122px;
+        width: 256px;
+    }
+
+    footer .midarea .contact .contacttitle {
+        height: 40px;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    footer .midarea .contact .contactcontent {
+        height: 48px;
+        width: 100%;
+    }
+
+    footer .midarea .contact .contactcontent .line {
+        font-size: 13px;
+        width: 100%;
+        line-height: 16px;
+    }
+
+    footer .midarea .social {
+        width: 256px;
+        height: 122px;
+    }
+
+    footer .midarea .support {
+        width: 256px;
+        height: 122px;
     }
 }
 
