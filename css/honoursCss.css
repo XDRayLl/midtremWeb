@@ -396,6 +396,7 @@ footer .midarea .support .contentright{
     section .contenttext .texttext.top {
         font-size: 16px;
         line-height: 24px;
+        padding: 5px;
     }
 
     section .ChampionsLeague {
@@ -453,30 +454,31 @@ footer .midarea .support .contentright{
     }
 
     section {
-        width:360px;
+        width:100%;
         margin-top: 15px;
     }
     
     section .contenttext {
-        width: 330px;
+        width: 100%;
         margin: auto;
     }
 
     section .contenttext .texttext.top {
         font-size: 6px;
         line-height: 15px;
+        padding: 5px;
     }
-    section .picture
+    section .contenttext .picture
     {
-        width: 328px;
+        width: 100%;
         height: 143px;
         margin: 0px;
         margin: auto;
     }
 
-    section .picture img
+    section .contenttext .picture img
     {
-        width: 328px;
+        width: 100%;
         height: 143px;
     }
 

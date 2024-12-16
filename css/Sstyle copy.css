@@ -21,6 +21,7 @@ body {
 
 header a{
     text-decoration: none;
+    width:20%;
 }
 
 header {
@@ -34,7 +35,7 @@ header {
 }
 
 section {
-    width: 100%;
+    
     margin-top: 30px;
 }
 
@@ -49,7 +50,6 @@ section .block.desktop{
 header .nav_buttons {
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 26px;
-    width: 216px;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -65,12 +65,14 @@ header .nav_buttons img {
 }
 
 section .teampicture img {
-    width: 100%;
+    width: 745px;
+    
 }
 
 section .teampicture {
-    margin: auto;
-    width: 745px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     /* height: 560px; */
 }
 
@@ -416,7 +418,6 @@ footer .midarea .support .contentright{
     }
     header .nav_buttons
     {
-        width: 144.4px;
         height: 43px;
         font-size: 20px;
     }
@@ -424,13 +425,14 @@ footer .midarea .support .contentright{
     {
         height: 43px;
     }
-
+/* 
     section
     {
         width: 768px;
-    }
+    } */
 
-    section .teampicture
+    
+    section .teampicture img
     {
         width: 654px;
         /* height: 178px; */
@@ -439,7 +441,6 @@ footer .midarea .support .contentright{
     section .block.desktop
     {
         width: 722px;
-        margin: auto;
     }
 
     section .block.desktop .AllText
@@ -471,29 +472,26 @@ footer .midarea .support .contentright{
         height: 316px;
     }
 
-    section .block .Picture img.creater {
+    section .block.desktop .Picture img.creater {
         width: 173px;
         /* height: 443px; */
     }
 
-    section .block .Picture .name {
+    section .block.desktop .Picture .name {
         /* width: 102px; */
         /* height: 43px; */
         margin-top: 7px;
         font-size: 16px;
-        display: flex
-    ;
+        display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
     }
 
-    section .block .Picture img.twentyfifteen {
-        width: 355px;
-        /* height: 441px; */
+    section .block.desktop .Picture img.twentyfifteen {
+        width: 322px;
     }
 
-    section .block .Picture .campnou {
+    section .block.desktop .Picture .campnou {
         width: 322px;
         /* height: 424px; */
     }
@@ -503,13 +501,12 @@ footer .midarea .support .contentright{
 {
     header
     {
-        width: 360px;
+        width: 100%;
         height: 33px;
         margin-top: 0px;
     }
     header .nav_buttons
     {
-        width: 72px;
         height: 33px;
         font-size: 15px;
     }
@@ -517,23 +514,23 @@ footer .midarea .support .contentright{
     {
         height: 33px;
     }
-
-    section {
-        width:360px;
-        margin-top: 10px;
-    }
     
     section .teampicture
     {
-        width: 314px;
-        height: 178px;
-        margin-top: 10px;
+        /* margin-top: 0px; */
+        display: flex;
+        justify-content: center;
+    }
+
+    section
+    {
+
     }
 
     section .teampicture img
     {
-        width: 314px;
-        height: 178px;
+        width: 100%;
+        /* height: 178px; */
     }
 
     section .block.desktop{
@@ -542,16 +539,12 @@ footer .midarea .support .contentright{
 
     section .block.mobile{
         display: block;
-        margin-top: 0px;
-        width: 360px;
+        width: 100%;
         height: 313px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     section .block.mobile .AllText {
-        width: 334px;
+        width: 300px;
         height: 283px;
         display: flex;
         flex-direction: column;
@@ -561,7 +554,7 @@ footer .midarea .support .contentright{
     }
 
     section .block.mobile .AllText .Title {
-        width: 334px;
+        width: 300px;
         height: 47px;
         font-size: 15px;
         margin-top: 0px;
@@ -569,7 +562,7 @@ footer .midarea .support .contentright{
     }
     
     section .block.mobile .AllText .Text {
-        width: 294px;
+        width: 200px;
         font-size: 6px;
         line-height: 12px;
         margin-bottom: 0px;
