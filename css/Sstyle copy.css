@@ -491,73 +491,117 @@ footer .midarea .support .contentright{
     }
 }
 
-@media(max-width:380px)
+@media (max-width: 360px)
 {
     header
     {
-        max-width: 744px;
-
+        width: 360px;
+        height: 33px;
+        margin-top: 0px;
+    }
+    header .nav_buttons
+    {
+        width: 72px;
+        height: 33px;
+        font-size: 15px;
+    }
+    header .nav_buttons img 
+    {
+        height: 33px;
     }
 
+    section {
+        width:360px;
+        margin-top: 10px;
+    }
+    
+    section .teampicture
+    {
+        width: 314px;
+        height: 178px;
+        margin-top: 10px;
+    }
 
-    /* section .block.desktop{
+    section .teampicture img
+    {
+        width: 314px;
+        height: 178px;
+    }
+
+    section .block.desktop{
         display: none;
     }
 
     section .block.mobile{
         display: block;
-        margin-top: 10px;
-    }
-
-    section .block {
+        margin-top: 0px;
         width: 360px;
         height: 313px;
         display: flex;
-        margin: auto;
-        margin-top: 15px;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    section .block .AllText {
-        width: 344px;
+    section .block.mobile .AllText {
+        width: 334px;
         height: 283px;
         display: flex;
         flex-direction: column;
         align-items: center;
         opacity: 100%;
+        margin: auto;
     }
 
-    section .block .AllText .Title {
-        font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-        width: 344px;
+    section .block.mobile .AllText .Title {
+        width: 334px;
         height: 47px;
         font-size: 15px;
         margin-top: 0px;
+        line-height: 50px;
     }
     
-    section .block .AllText .Text {
+    section .block.mobile .AllText .Text {
         width: 294px;
         font-size: 6px;
-        color: white;
-        line-height: 15px;
-
+        line-height: 12px;
         margin-bottom: 0px;
         padding: 0px 0px;
     }
-    section .block .Picture {
+    section .block.mobile .Picture {
+        width: 81px;
+    }
+    
+    section .block.mobile .Picture.creater img.creater {
         width: 81px;
         height: 126px;
         margin-top: 16px;
     }
-    
-    section .block .Picture img.creater {
+
+    section .block.mobile .Picture .name {
         width: 81px;
-        height: 126px;
+        margin-top: 4.4px;
+        font-size: 5px;
     }
 
-    section .block .Picture .name {
-        width: 81px;
-        margin-top: 5px;
-        font-size: 5px;
-    } */
+    section .block.mobile .AllText.honoursText{
+        opacity: 100%;
+    }
+
+    section .block.mobile .AllText.honoursText .Picture.twentyfifteen{
+        width: 220px;
+        margin-top: 26px;
+    }
+    
+    section .block.mobile .AllText.honoursText .Picture.twentyfifteen img.twentyfifteen {
+        width: 220px;
+    }
+
+    section .block.mobile .AllText.stadiumText .Picture.stadium{
+        width: 264px;
+        margin-top: 26px;
+    }
+    
+    section .block.mobile .AllText.stadiumText .Picture.stadium .campnou{
+        width: 264px;
+    }
 }

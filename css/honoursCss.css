@@ -55,14 +55,14 @@ header .nav_buttons img {
     align-items: center;
 }
 section .picture img {
-    width: 1193px;
+    width: 100%;
 }
 
 section .picture {
     margin: auto;
     margin-top: 30px;
-    width: 1175px;
-    height: 559px;
+    width: 100%;
+    /* height: 559px; */
 }
 /*---------------------*/
 section .contenttext{
@@ -104,7 +104,7 @@ section .ChampionsLeague .CHpiture img{
 }
 section .ChampionsLeague .title{
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-weight: 700px;
+    font-weight: bold;
     font-size: 42px;
     color: white;
     width: 650px;
@@ -349,5 +349,174 @@ footer .midarea .support .contentright{
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
+}
 
+@media (max-width:768px)
+{
+    header
+    {
+        width: 722px;
+        height: 43px;
+    }
+    header .nav_buttons
+    {
+        width: 144.4px;
+        height: 43px;
+        font-size: 20px;
+    }
+    header .nav_buttons img 
+    {
+        height: 43px;
+    }
+
+    section
+    {
+        width: 768px;
+    }
+
+    section .picture
+    {
+        width: 730px;
+        height: 319px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section .picture img
+    {
+        width: 730px;
+        height: 319px;
+    }
+
+    section .contenttext {
+        width: 738px;
+        margin: auto;
+    }
+
+    section .contenttext .texttext.top {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section .ChampionsLeague {
+        width: 730px;
+        height: 170px;
+        padding: 0px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    section .ChampionsLeague .CHpiture {
+        width: 280px;
+        display: flex;
+        align-items: center;
+    }
+
+    section .ChampionsLeague .CHpiture img{
+        width: 280px;
+        height: 165px;
+    }
+
+    section .ChampionsLeague .title {
+        font-size: 30px;
+        letter-spacing: -0.8px;
+        width: 450px;
+        margin-bottom: 11px;
+    }
+
+    section .ChampionsLeague .texttext {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        width: 430px;
+    }
+}
+
+@media (max-width:360px)
+{
+    header
+    {
+        width: 360px;
+        height: 33px;
+        margin-top: 0px;
+    }
+    header .nav_buttons
+    {
+        width: 72px;
+        height: 33px;
+        font-size: 15px;
+    }
+    header .nav_buttons img 
+    {
+        height: 33px;
+    }
+
+    section {
+        width:360px;
+        margin-top: 15px;
+    }
+    
+    section .contenttext {
+        width: 330px;
+        margin: auto;
+    }
+
+    section .contenttext .texttext.top {
+        font-size: 6px;
+        line-height: 15px;
+    }
+    section .picture
+    {
+        width: 328px;
+        height: 143px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section .picture img
+    {
+        width: 328px;
+        height: 143px;
+    }
+
+
+    section .ChampionsLeague {
+        width: 332px;
+        height: 106px;
+        padding: 0px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    section .ChampionsLeague .CHpiture {
+        width: 122px;
+        display: flex;
+        align-items: center;
+    }
+    
+    section .ChampionsLeague .CHpiture img{
+        width: 122px;
+        height: 66px;
+    }
+
+    section .ChampionsLeague .title {
+        font-size: 14px;
+        letter-spacing: -0.8px;
+        width: 210px;
+        height: 41px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    section .ChampionsLeague .texttext {
+        font-size: 6px;
+        letter-spacing: 0px;
+        line-height: 12px;
+        padding-right: 15px;
+        width: 210px;
+        height: 65px;
+    }
 }

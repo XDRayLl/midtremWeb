@@ -332,5 +332,135 @@ footer .midarea .support .contentright{
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
+}
 
+@media (max-width:768px)
+{
+    header
+    {
+        width: 722px;
+        height: 43px;
+    }
+    header .nav_buttons
+    {
+        width: 144.4px;
+        height: 43px;
+        font-size: 20px;
+    }
+    header .nav_buttons img 
+    {
+        height: 43px;
+    }
+
+    section
+    {
+        width: 768px;
+
+    }
+
+    section .picture
+    {
+        width: 594px;
+        height: 328px;
+    }
+
+    section .picture img
+    {
+        width: 594px;
+        height: 328px;
+    }
+
+    section .contenttext.desktop
+    {
+        display: block;
+        width: 660px;
+    }
+
+    section .contenttext.mobile
+    {
+        display: none;
+    }
+
+    section .contenttext.desktop .top.title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section .contenttext.desktop .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section .contenttext.desktop .texttext{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 360px)
+{
+    header
+    {
+        width: 360px;
+        height: 33px;
+        margin-top: 0px;
+    }
+    header .nav_buttons
+    {
+        width: 72px;
+        height: 33px;
+        font-size: 15px;
+    }
+    header .nav_buttons img 
+    {
+        height: 33px;
+    }
+
+    section {
+        width:360px;
+        margin-top: 10px;
+    }
+    
+    section .picture
+    {
+        width: 326px;
+        height: 180px;
+        margin-top: 15px;
+    }
+
+    section .picture img
+    {
+        width: 326px;
+        height: 180px;
+    }
+
+    section .contenttext.desktop{
+        display: none;
+    }
+
+    section .contenttext.mobile{
+        display: block;   
+        width: 306px;
+        /* height: 312px; */
+    }
+
+    section .top.title {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    section .title {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    section .bottom.title {
+        font-size: 13px;
+        line-height: 20px
+    }
+
+    section .texttext {
+        font-size: 6px;
+        line-height: 15px;
+    }
 }
