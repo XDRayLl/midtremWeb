@@ -21,7 +21,6 @@ body {
 
 header a{
     text-decoration: none;
-    width:20%;
 }
 
 header {
@@ -418,6 +417,7 @@ footer .midarea .support .contentright{
     }
     header .nav_buttons
     {
+        width: 144.4px;
         height: 43px;
         font-size: 20px;
     }
@@ -642,12 +642,17 @@ footer .midarea .support .contentright{
     }
     header .nav_buttons
     {
+        width: 68.6px;
         height: 33px;
         font-size: 15px;
     }
     header .nav_buttons img 
     {
         height: 33px;
+    }
+
+    section{
+        width: 100%;
     }
     
     section .teampicture
@@ -734,5 +739,145 @@ footer .midarea .support .contentright{
     
     section .block.mobile .AllText.stadiumText .Picture.stadium .campnou{
         width: 264px;
+    }
+
+    footer
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer .partner
+    {
+        width: 96px;
+        height: 16px;
+        font-size: 10px;
+        padding-left: 17px;
+        /* letter-spacing: 0.5px; */
+    }
+
+    footer .partnerIcon {
+        width: 326px;
+        height: 72px;
+        margin: 0 0 0 17px;
+        padding: 0 10px;
+    }
+
+    footer .partnerIcon a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .partnerIcon a .nike{
+        width: 67px;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    footer .partnerIcon a .spofity {
+        width: 100px;
+        /* margin-top: 10px; */
+    }
+
+    footer .partnerIcon a .tv {
+        width: 80px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    footer .midarea {
+
+    }
+
+    footer .midarea .contact {
+        height: 122px;
+        width: 33.33%;
+    }
+
+    footer .midarea .contact .contacttitle {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    footer .midarea .contact .contactcontent {
+        height: 96px;
+        width: 100%;
+    }
+
+    footer .midarea .contact .contactcontent .line {
+        font-size: 7px;
+        width: 100%;
+        line-height: 16px;
+    }
+
+    footer .midarea .social {
+        width: 33.33%;
+        height: 122px;
+    }
+
+    footer .midarea .social .socialtitle {
+        width: 100%;
+        height: 28px;
+        font-size: 12px;
+    }
+
+    footer .midarea .buttonarea {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer .midarea .social .buttonarea a .content {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .midarea .social .buttonarea a .content .socialtext {
+        display: none;
+    }
+
+    footer .midarea .social .buttonarea a .content img {
+        width: 30.17px;
+        height: 30.17px;
+    }
+
+    footer .midarea .social .buttonarea a .content .igicon {
+        width: 27.17px;
+        height: 27.17px;
+        margin: 0px;
+    }
+
+    footer .midarea .support {
+        width: 33.33%;
+        height: 122px;
+        /* display: flex;。 */
+        align-items: center;
+    }
+
+    footer .midarea .support .supporttitle {
+        width: 74px;
+        height: 40px;
+        font-size: 24px;
+        margin-left: 91px;
+    }
+
+    footer .midarea .support .contentleft {
+        width: 84px;
+        height: 80px;
+        line-height: 27px;
+        font-size: 13px;
+        margin-left: 44px;
+    }
+
+    footer .midarea .support .contentright {
+        width: 84px;
+        height: 80px;
+        line-height: 27px;
+        font-size: 13px;
+        margin-left: 44px;
     }
 }
