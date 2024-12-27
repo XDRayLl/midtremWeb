@@ -66,16 +66,83 @@ header .nav_buttons img {
     align-items: center;
 }
 
-section .teampicture img {
+section .list img {
     width: 745px;
-    
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
 }
 
-section .teampicture {
+section .slider.list.teampicture {
+
+    flex: 0 0 100%; /* 每张图片占满轮播宽度 */
+}
+
+section .slider {
+    width: 745px;
+    max-width: 100vw;
+    height: 560px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    /* height: 560px; */
+}
+.list {
+    /* justify-content: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+    /* height: 560px; */
+}
+.buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: none;
+    font-family: "Barcelona";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dots{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    left: 0;
     width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    /* height: 560px; */
+}
+
+.dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.dots li.active{
+    width: 30px;
 }
 
 section .block.desktop{
@@ -145,7 +212,7 @@ section .block .AllText.stadiumText {
     opacity: 66%;
     border-radius: 5px;
 }
-
+ㄍ
 
 
 section .block .Picture {
