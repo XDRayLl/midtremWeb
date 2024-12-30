@@ -50,6 +50,19 @@ header .nav_buttons {
     color: white;
 }
 
+header .nav_buttons:hover
+{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 放大效果用陰影表現 */
+    border: 2px solid black; /* 添加黑框 */
+}
+
+header .nav_buttons:active {
+    background-color: white; /* 按下時背景變白 */
+    color: black;
+    border: 2px solid black; /* 確保黑框存在 */
+    transform: scale(1); /* 回到原始大小 */
+}
+
 header .nav_buttons img {
     height: 70px;
     display: flex;
@@ -255,6 +268,17 @@ footer .midarea .social .buttonarea .mobileTop{
 
 footer .midarea .social .buttonarea .mobileDown{
     display: none;
+}
+
+footer .midarea .social .buttonarea a:hover{
+    transform: scale(1.1); /* 放大效果 */
+    border: 2px solid black; /* 添加黑框 */
+}
+
+footer .midarea .social .buttonarea a:active{
+    color: black; /* 文字變黑 */
+    border: 2px solid black; /* 保持黑框 */
+    transform: scale(1); /* 恢復原始大小 */
 }
 
 footer .midarea .social .buttonarea a .content.FB{
