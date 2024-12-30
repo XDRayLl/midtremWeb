@@ -24,6 +24,7 @@ header a{
 }
 
 header {
+    z-index: 1; /* 將z-index設為1 */
     margin: auto;
     background: linear-gradient(to top right, #18045E, #AD2F2F);
     width: 1080px;
