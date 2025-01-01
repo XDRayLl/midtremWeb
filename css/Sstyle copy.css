@@ -226,10 +226,9 @@ section .block .AllText.stadiumText {
     opacity: 66%;
     border-radius: 5px;
 }
-ㄍ
 
 
-section .block .Picture {
+section .block.desktop .Picture {
     width: 570px;
     /* height: 486px; */
     display: flex;
