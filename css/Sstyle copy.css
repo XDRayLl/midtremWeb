@@ -3,6 +3,17 @@
     box-sizing: border-box;
 }
 
+@keyframes apprear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 @font-face {
     font-family: Barcelona;
 	src: url('../font/Barcelona-font/FCBARCELONA-Bold.woff2') format('woff2');
@@ -15,7 +26,7 @@
 
 body {
     margin: 0;
-    background: #44396F;
+    background: #6f7676;
     
 }
 
@@ -26,7 +37,7 @@ header a{
 header {
     z-index: 1; /* 將z-index設為1 */
     margin: auto;
-    background: linear-gradient(to top right, #18045E, #AD2F2F);
+    background: linear-gradient(to top right, #36589b, #ff3f2e);
     width: 1080px;
     height: 70px;
     display: flex;
@@ -34,6 +45,7 @@ header {
     margin-top: 30px;
     position: sticky;
     top: 0; 
+    border-radius: 5px;
 }
 
 section {
@@ -62,14 +74,15 @@ header .nav_buttons {
 
 header .nav_buttons:hover
 {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 放大效果用陰影表現 */
-    border: 2px solid black; /* 添加黑框 */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 放大效果用陰影表現 */
+    transform: scale(1.1); /* 放大效果 */
+    /* border: 2px solid black; 添加黑框 */
 }
 
 header .nav_buttons:active {
     background-color: white; /* 按下時背景變白 */
     color: black;
-    border: 2px solid black; /* 確保黑框存在 */
+    /* border: 2px solid black; 確保黑框存在 */
     transform: scale(1); /* 回到原始大小 */
 }
 
@@ -168,9 +181,11 @@ section .block.desktop{
     justify-content: space-between;
 }
 
-section .block .desktop {
-    display: block;
-
+section .block.desktop {
+    display: flex;
+    animation: apprear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 
 section .block.mobile {
@@ -179,7 +194,7 @@ section .block.mobile {
 
 section .block .AllText.honoursText {
     
-    background: linear-gradient(to top, #383057, #912F38);
+    background: linear-gradient(to top, #36589b, #f02b19c5);
     opacity: 66%;
     border-radius: 5px;
 
@@ -189,7 +204,7 @@ section .block .AllText.honoursText {
 section .block .AllText {
     width: 570px;
     height: 446px;
-    background-color: #732121;
+    background-color: #f02b19c5;
     opacity: 66%;
     border-radius: 5px;
 
@@ -222,7 +237,7 @@ section .block .AllText .Text {
 }
 
 section .block .AllText.stadiumText {
-    background: #383057;
+    background: #36589b;
     opacity: 66%;
     border-radius: 5px;
 }
@@ -265,7 +280,7 @@ section .block .Picture .name {
 
 footer {
     width: 100%;
-    background-color: #181733;
+    background-color: #1c2e52;
     margin-top: 40px;
     
 }
@@ -789,6 +804,9 @@ footer .midarea .support .contentright{
         display: block;
         width: 100%;
         height: 313px;
+        animation: apprear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
     }
 
     section .block.mobile .AllText {

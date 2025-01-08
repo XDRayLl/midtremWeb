@@ -19,13 +19,13 @@ header a{
 
 body {
     margin: 0;
-    background: #44396F;
+    background: #6f7676;
     
 }
 
 header {
     margin: auto;
-    background: linear-gradient(to top right, #18045E, #AD2F2F);
+    background: linear-gradient(to top right, #36589b, #ff3f2e);
     width: 1080px;
     height: 70px;
     display: flex;
@@ -53,14 +53,15 @@ header .nav_buttons {
 
 header .nav_buttons:hover
 {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 放大效果用陰影表現 */
-    border: 2px solid black; /* 添加黑框 */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 放大效果用陰影表現 */
+    transform: scale(1.1); /* 放大效果 */
+    /* border: 2px solid black; 添加黑框 */
 }
 
 header .nav_buttons:active {
     background-color: white; /* 按下時背景變白 */
     color: black;
-    border: 2px solid black; /* 確保黑框存在 */
+    /* border: 2px solid black; 確保黑框存在 */
     transform: scale(1); /* 回到原始大小 */
 }
 
@@ -93,7 +94,7 @@ section .top.title{
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
-    color: #FF5C5C;
+    color: #f02b19c5;
 }
 
 section .title{
@@ -101,7 +102,7 @@ section .title{
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
-    color: #7751FF;
+    color: #36589b;
 }
 
 section .bottom.title{
@@ -109,7 +110,7 @@ section .bottom.title{
     font-size: 35px;
     line-height: 200%;
     font-weight: bold;
-    color: #7751FF;
+    color: #36589b;
 }
 
 section .texttext{
@@ -125,7 +126,7 @@ section .texttext{
 
 footer {
     width: 100%;
-    background-color: #181733;
+    background-color: #1c2e52;
     margin-top: 40px;
     
 }
