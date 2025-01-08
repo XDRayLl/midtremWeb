@@ -8,6 +8,17 @@
 	src: url('../font/Helvetica-Neue/Helvetica-Neue-2.woff2') format('woff2');
 }
 
+@keyframes apprear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 * {
     box-sizing: border-box;
 
@@ -33,6 +44,8 @@ header {
     margin-top: 30px;
     position: sticky;
     top: 0;
+    z-index: 1; /* 將z-index設為1 */
+    border-radius: 5px;
 }
 section {
     width: 100%;
@@ -99,6 +112,7 @@ section .contenttext .texttext.top{
 }
 /*---------------------*/
 section .ChampionsLeague{
+
     border: 2px solid black;  /* 设置边框 */
     border-radius: 5px;
     padding: 20px;            /*设置内容与边框的距离*/
@@ -111,6 +125,9 @@ section .ChampionsLeague{
     margin: auto;
     margin-bottom: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /*用陰影表現*/
+    animation: apprear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 section .ChampionsLeague .CHpiture{
     width: 312px;
@@ -623,6 +640,11 @@ footer .midarea .support .contentright{
         width:100%;
         margin-top: 15px;
     }
+
+    section.down {
+        width:100%;
+        margin-top: 15px;
+    }
     
     section .contenttext {
         width: 100%;
@@ -656,6 +678,7 @@ footer .midarea .support .contentright{
         font-size: 20px;
         margin: auto;
         margin-bottom: 10px;
+        animation: unset;
     }
     
     section .ChampionsLeague .CHpiture {
