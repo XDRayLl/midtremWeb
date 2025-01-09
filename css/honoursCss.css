@@ -454,6 +454,7 @@ footer .midarea .support .contentright{
         font-size: 20px;
         margin: auto;
         margin-bottom: 10px;
+        animation:unset;
     }
     
     section .ChampionsLeague .CHpiture {
@@ -617,7 +618,7 @@ footer .midarea .support .contentright{
     }
 }
 
-@media (max-width:360px)
+@media (max-width:430px)
 {
     header
     {
@@ -625,9 +626,14 @@ footer .midarea .support .contentright{
         height: 33px;
         margin-top: 0px;
     }
+
+    header a{
+        width: 20%;
+    }
+
     header .nav_buttons
     {
-        width: 68.6px;
+        width: 100%;
         height: 33px;
         font-size: 15px;
     }
@@ -727,7 +733,7 @@ footer .midarea .support .contentright{
     }
 
     footer .partnerIcon {
-        width: 326px;
+        width: 400px;
         height: 72px;
         margin: 0 0 0 17px;
         padding: 0 10px;
