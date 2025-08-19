@@ -1,0 +1,905 @@
+@font-face {
+    font-family: Barcelona;
+	src: url('../font/Barcelona-font/FCBARCELONA-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Helvetica-Neue;
+	src: url('../font/Helvetica-Neue/Helvetica-Neue-2.woff2') format('woff2');
+}
+
+@keyframes apprear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background:#181733;
+
+}
+
+header {
+    margin: auto;
+    background: linear-gradient(to top right, #36589b, #ff3f2e);
+    width: 1080px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* 將z-index設為1 */
+    border-radius: 5px;
+}
+section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+header .nav_buttons {
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-size: 26px;
+    width: 216px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header .nav_buttons:hover
+{
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 放大效果用陰影表現 */
+    transform: scale(1.1); /* 放大效果 */
+    /* border: 2px solid black; 添加黑框 */
+}
+
+header .nav_buttons:active {
+    background-color: white; /* 按下時背景變白 */
+    color: black;
+    /* border: 2px solid black; 確保黑框存在 */
+    transform: scale(1); /* 回到原始大小 */
+}
+
+header .nav_buttons img {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .picture img {
+    width: 100%;
+}
+
+section .picture {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    /* height: 559px; */
+}
+/*---------------------*/
+section .contenttext{
+    width: 900px;
+    margin: auto;
+}
+
+section .contenttext .texttext.top{
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400px;
+    color: white;  
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    /* width: 430px; */
+}
+/*---------------------*/
+section .ChampionsLeague{
+
+    border: 2px solid black;  /* 设置边框 */
+    border-radius: 5px;
+    padding: 20px;            /*设置内容与边框的距离*/
+    width: 1034px;
+    height: 300 px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    /* margin-bottom: 20px; */
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /*用陰影表現*/
+    animation: apprear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+section .ChampionsLeague .CHpiture{
+    width: 312px;
+}
+section .ChampionsLeague .CHpiture img{
+    width: 312px;
+    height: 175.5px;
+}
+section .ChampionsLeague .title{
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: white;
+    width: 650px;
+    text-align:left;
+    margin-bottom: 30px;
+}
+
+section .ChampionsLeague .texttext{
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400px;
+    color: white;  
+    display: grid;
+    justify-content:flex-start;
+    text-align:start;
+    width: 430px;
+}
+/*--------------------------------footer-------------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: #222222;
+    margin-top: 40px;
+    
+}
+
+footer .partner {
+    width: 100%;
+    height: 43px;
+    display: flex;
+
+    align-items: center;
+    padding-left: 49px ;
+    /* justify-content: center; */
+    font-size: 24px;
+    color: #ECA100;
+    line-height: 14px;
+
+    /* MAIN PERTNERS */
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight:900;
+    font-size: 24px;
+
+    /* or 58% */
+    letter-spacing: 0.01em;
+}
+
+footer .partnerIcon{
+    display: flex;
+    /* margin-left: 49px; */
+    height: 173px;
+    border-left: 2px solid #ECA100;
+    justify-content: space-between;
+
+    width: calc(100% - 98px);
+    margin:0px 49px;
+}
+
+footer .partnerIcon  a .nike{
+    width: 235px;
+    margin-left: 160px;
+}
+
+footer .partnerIcon a .spofity{
+    width: 280px;
+}
+
+footer .partnerIcon a .tv{
+    width: 370px;
+
+    margin-top: 24px;
+    margin-right: 37px;
+}
+
+footer .midarea{
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 140px;
+}
+
+footer .midarea .contact{
+    height: 216px;
+    width: 404px;
+}
+
+footer .midarea .contact .contacttitle{
+    height: 70px;
+    width: 404px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 35px;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight:normal;
+}
+
+footer .midarea .contact .contactcontent{
+    height: 132px;
+    width: 404px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer .midarea .contact .contactcontent .line{
+    width: 404px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight:normal;
+    line-height: 200%;
+}
+
+footer .midarea .social{
+    width: 480px;
+    height: 216px;
+}
+
+footer .midarea .buttonarea{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .midarea .social .socialtitle{
+    width: 100%;
+    height: 55px;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer .midarea .social .buttonarea .mobileTop{
+    display: none;
+}
+
+footer .midarea .social .buttonarea .mobileDown{
+    display: none;
+}
+
+footer .midarea .social .buttonarea a:hover{
+    transform: scale(1.1); /* 放大效果 */
+    border: 2px solid black; /* 添加黑框 */
+}
+
+footer .midarea .social .buttonarea a:active{
+    color: black; /* 文字變黑 */
+    border: 2px solid black; /* 保持黑框 */
+    transform: scale(1); /* 恢復原始大小 */
+}
+
+footer .midarea .social .buttonarea a .content.FB{
+    background-color: #3B5998;
+}
+
+footer .midarea .social .buttonarea a .content.X{
+    background-color: #55ACEE;
+}
+
+footer .midarea .social .buttonarea a .content.yt{
+    background-color: #BB0000;
+}
+
+footer .midarea .social .buttonarea a .content.ig{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
+
+}
+
+
+footer .midarea .social .buttonarea a .content{
+    width: 115px;
+    height: 90px;
+}
+
+
+footer .midarea .social .buttonarea a .content img{
+    width: 28px;
+    height: 28px;
+}
+
+footer .midarea .social .buttonarea a .content .igicon{
+    width: 25px;
+    height: 25px;
+    margin: 2px 0px 0px 2px;
+}
+
+footer .midarea .social .buttonarea a .content .socialtext{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+footer .midarea .social .buttonarea a .content .insidetext{
+    width: 100%;
+    color: white;
+    margin-top: 2px;
+    margin:0px 0px 0px 5px;
+    text-decoration: none;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+
+}
+
+footer .midarea .social .buttonarea a{
+    text-decoration: none;
+}
+
+footer .midarea .support{
+    width: 405px;
+    height: 216px;
+}
+
+footer .midarea .support .supporttitle{
+    width: 210px;
+    height: 70px;
+    color: white;
+    line-height: 200%;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 130px;
+}
+
+footer .midarea .support .supportcontent{
+    display: flex;
+}
+
+
+
+footer .midarea .support .contentleft{
+    width: 105px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 130px;
+}
+footer .midarea .support .contentright{
+    width: 105px;
+    height: 146px;
+    color: white;
+    line-height: 200%;
+    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+@media (max-width:768px)
+{
+    header
+    {
+        width: 722px;
+        height: 43px;
+    }
+    header .nav_buttons
+    {
+        width: 144.4px;
+        height: 43px;
+        font-size: 20px;
+    }
+    header .nav_buttons img 
+    {
+        height: 43px;
+    }
+
+    section .picture
+    {
+        width: 730px;
+        height: 319px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section .picture img
+    {
+        width: 730px;
+        height: 319px;
+    }
+
+    section .contenttext {
+        width: 738px;
+        margin: auto;
+    }
+
+    section .contenttext .texttext.top {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 5px;
+    }
+
+    section .ChampionsLeague {
+        width: 730px;
+        height: 170px;
+        padding: 0px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+        animation:unset;
+    }
+    
+    section .ChampionsLeague .CHpiture {
+        width: 280px;
+        display: flex;
+        align-items: center;
+    }
+
+    section .ChampionsLeague .CHpiture img{
+        width: 280px;
+        height: 165px;
+    }
+
+    section .ChampionsLeague .title {
+        font-size: 30px;
+        letter-spacing: -0.8px;
+        width: 450px;
+        margin-bottom: 11px;
+    }
+
+    section .ChampionsLeague .texttext {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        width: 430px;
+    }
+
+    footer
+    {
+        width: 100%;
+    }
+
+    footer .partner
+    {
+        width: 160px;
+        height: 27px;
+        font-size: 15px;
+        padding-left: 23px;
+    }
+
+    footer .partnerIcon {
+        width: 722px;
+        height: 86px;
+        margin: 0 23px 0 23px;
+    }
+
+    footer .partnerIcon a .nike{
+        width: 146px;
+        height: 52px;
+        margin-left: 43px;
+        margin-top: 12px;
+    }
+
+    footer .partnerIcon a .spofity {
+        width: 200px;
+    }
+
+    footer .partnerIcon a .tv {
+        width: 180px;
+        margin-top: 25px;
+        margin-right: 4px;
+    }
+
+    footer .midarea {
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    footer .midarea .contact {
+        height: 122px;
+        width: 33.33%;
+    }
+
+    footer .midarea .contact .contacttitle {
+        height: 40px;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    footer .midarea .contact .contactcontent {
+        height: 48px;
+        width: 100%;
+    }
+
+    footer .midarea .contact .contactcontent .line {
+        font-size: 13px;
+        width: 100%;
+        line-height: 16px;
+    }
+
+    footer .midarea .social {
+        width: 33.33%;
+        height: 122px;
+    }
+
+    footer .midarea .social .socialtitle {
+        width: 100%;
+        height: 28px;
+        font-size: 12px;
+    }
+
+    footer .midarea .buttonarea {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer .midarea .social .buttonarea a .content {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .midarea .social .buttonarea a .content .socialtext {
+        display: none;
+    }
+
+    footer .midarea .social .buttonarea a .content img {
+        width: 30.17px;
+        height: 30.17px;
+    }
+
+    footer .midarea .social .buttonarea a .content .igicon {
+        width: 27.17px;
+        height: 27.17px;
+        margin: 0px;
+    }
+
+    footer .midarea .support {
+        width: 33.33%;
+        height: 122px;
+        /* display: flex;。 */
+        align-items: center;
+    }
+
+    footer .midarea .support .supporttitle {
+        width: 74px;
+        height: 40px;
+        font-size: 24px;
+        margin-left: 91px;
+    }
+
+    footer .midarea .support .contentleft {
+        width: 84px;
+        height: 80px;
+        line-height: 27px;
+        font-size: 13px;
+        margin-left: 44px;
+    }
+
+    footer .midarea .support .contentright {
+        width: 84px;
+        height: 80px;
+        line-height: 27px;
+        font-size: 13px;
+        margin-left: 44px;
+    }
+}
+
+@media (max-width:430px)
+{
+    header
+    {
+        width: 100%;
+        height: 33px;
+        margin-top: 0px;
+    }
+
+    header a{
+        width: 20%;
+    }
+
+    header .nav_buttons
+    {
+        width: 100%;
+        height: 33px;
+        font-size: 15px;
+    }
+    header .nav_buttons img 
+    {
+        height: 33px;
+    }
+
+    section {
+        width:100%;
+        margin-top: 15px;
+    }
+
+    section.down {
+        width:100%;
+        margin-top: 15px;
+    }
+    
+    section .contenttext {
+        width: 100%;
+        margin: auto;
+    }
+
+    section .contenttext .texttext.top {
+        font-size: 6px;
+        line-height: 15px;
+        padding: 5px;
+    }
+    section .contenttext .picture
+    {
+        width: 100%;
+        height: 143px;
+        margin: 0px;
+        margin: auto;
+    }
+
+    section .contenttext .picture img
+    {
+        width: 100%;
+        height: 143px;
+    }
+
+
+    section .ChampionsLeague {
+        width: 332px;
+        height: 106px;
+        padding: 0px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 10px;
+        animation: unset;
+    }
+    
+    section .ChampionsLeague .CHpiture {
+        width: 122px;
+        display: flex;
+        align-items: center;
+    }
+    
+    section .ChampionsLeague .CHpiture img{
+        width: 122px;
+        height: 66px;
+    }
+
+    section .ChampionsLeague .title {
+        font-size: 14px;
+        letter-spacing: -0.8px;
+        width: 210px;
+        height: 41px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    section .ChampionsLeague .texttext {
+        font-size: 6px;
+        letter-spacing: 0px;
+        line-height: 12px;
+        padding-right: 15px;
+        width: 210px;
+        height: 65px;
+    }
+
+    footer
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer .partner
+    {
+        width: 96px;
+        height: 16px;
+        font-size: 10px;
+        padding-left: 17px;
+        /* letter-spacing: 0.5px; */
+    }
+
+    footer .partnerIcon {
+        width: 400px;
+        height: 72px;
+        margin: 0 0 0 17px;
+        padding: 0 10px;
+    }
+
+    footer .partnerIcon a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .partnerIcon a .nike{
+        width: 67px;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    footer .partnerIcon a .spofity {
+        width: 100px;
+        /* margin-top: 10px; */
+    }
+
+    footer .partnerIcon a .tv {
+        width: 80px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    footer .midarea {
+        height: 114px;
+    }
+
+    footer .midarea .contact {
+        width: 33.33%;
+        height: 114px;
+    }
+
+    footer .midarea .contact .contacttitle {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    footer .midarea .contact .contactcontent {
+        height: 48px;
+        width: 100%;
+    }
+
+    footer .midarea .contact .contactcontent .line {
+        font-size: 7px;
+        width: 100%;
+        line-height: 16px;
+    }
+
+    footer .midarea .social {
+        width: 33.33%;
+        height: 114px;
+    }
+
+    footer .midarea .social .socialtitle {
+
+        font-size: 7.5px;
+    }
+
+    footer .midarea .buttonarea {
+        width: 100%;
+        height: 86px;
+        flex-direction:column;
+        justify-content: space-evenly;
+    }
+
+    footer .midarea .social .buttonarea a{
+        display: none;
+    }
+
+    footer .midarea .social .buttonarea .mobileTop{
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+
+    footer .midarea .social .buttonarea .mobileTop a{
+        display: block;
+        margin: 5px 0px 5px 0px;
+    }
+
+    footer .midarea .social .buttonarea .mobileDown{
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+
+    footer .midarea .social .buttonarea .mobileDown a{
+        display: block;
+        margin: 5px 0px 5px 0px;
+    }
+
+    footer .midarea .social .buttonarea .mobileDown a .content {
+        width: 33px;
+        height: 33px;
+    }
+
+    footer .midarea .social .buttonarea .mobileTop a .content {
+        width: 33px;
+        height: 33px;
+    }
+
+    footer .midarea .social .buttonarea .mobileDown a .content img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .midarea .social .buttonarea .mobileTop a .content img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .midarea .social .buttonarea .mobileDown a .content .igicon {
+        width: 17.17px;
+        height: 17.17px;
+        margin: 0px;
+    }
+
+    footer .midarea .support {
+        width: 33.33%;
+        height: 114px;
+    }
+
+    footer .midarea .support .supporttitle {
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+    }
+    footer .midarea .support .supportcontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .midarea .support .contentleft {
+        width: 100%;
+        height: 30px;
+        line-height: 15px;
+        font-size: 7px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .midarea .support .contentright {
+        width: 100%;
+        height: 30px;
+        line-height: 15px;
+        font-size: 7px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
