@@ -1,19 +1,20 @@
 @font-face {
     font-family: Barcelona;
-	src: url('../font/Barcelona-font/FCBARCELONA-Bold.woff2') format('woff2');
+    src: url('../font/Barcelona-font/FCBARCELONA-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: Helvetica-Neue;
-	src: url('../font/Helvetica-Neue/Helvetica-Neue-2.woff2') format('woff2');
+    src: url('../font/Helvetica-Neue/Helvetica-Neue-2.woff2') format('woff2');
 }
 
 @keyframes apprear {
-    from{
+    from {
         opacity: 0;
         scale: 0.5;
     }
-    to{
+
+    to {
         opacity: 1;
         scale: 1;
     }
@@ -24,13 +25,13 @@
 
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
 body {
     margin: 0;
-    background:#181733;
+    background: #181733;
 
 }
 
@@ -44,9 +45,11 @@ header {
     margin-top: 30px;
     position: sticky;
     top: 0;
-    z-index: 1; /* 將z-index設為1 */
+    z-index: 1;
+    /* 將z-index設為1 */
     border-radius: 5px;
 }
+
 section {
     width: 100%;
     margin-top: 30px;
@@ -63,18 +66,20 @@ header .nav_buttons {
     color: white;
 }
 
-header .nav_buttons:hover
-{
+header .nav_buttons:hover {
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 放大效果用陰影表現 */
-    transform: scale(1.1); /* 放大效果 */
+    transform: scale(1.1);
+    /* 放大效果 */
     /* border: 2px solid black; 添加黑框 */
 }
 
 header .nav_buttons:active {
-    background-color: white; /* 按下時背景變白 */
+    background-color: white;
+    /* 按下時背景變白 */
     color: black;
     /* border: 2px solid black; 確保黑框存在 */
-    transform: scale(1); /* 回到原始大小 */
+    transform: scale(1);
+    /* 回到原始大小 */
 }
 
 header .nav_buttons img {
@@ -83,6 +88,7 @@ header .nav_buttons img {
     justify-content: center;
     align-items: center;
 }
+
 section .picture img {
     width: 100%;
 }
@@ -93,77 +99,125 @@ section .picture {
     width: 100%;
     /* height: 559px; */
 }
-/*---------------------*/
-section .contenttext{
-    width: 900px;
-    margin: auto;
-}
 
-section .contenttext .texttext.top{
-    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 400px;
-    color: white;  
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    /* width: 430px; */
-}
 /*---------------------*/
-section .ChampionsLeague{
 
-    border: 2px solid black;  /* 设置边框 */
+.Nextmatch {
+    background-color: white;
+    /* border: 2px solid black; */
     border-radius: 5px;
-    padding: 20px;            /*设置内容与边框的距离*/
+    padding: 20px;
     width: 1034px;
     height: 300 px;
     text-align: center;
     font-size: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     /* margin-bottom: 20px; */
     margin: auto;
     margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /*用陰影表現*/
-    animation: apprear linear;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /*animation: apprear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-section .ChampionsLeague .CHpiture{
-    width: 312px;
-}
-section .ChampionsLeague .CHpiture img{
-    width: 312px;
-    height: 175.5px;
-}
-section .ChampionsLeague .title{
-    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 42px;
-    color: white;
-    width: 650px;
-    text-align:left;
-    margin-bottom: 30px;
+    animation-range: entry 0% cover 40%;*/
 }
 
-section .ChampionsLeague .texttext{
-    font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 400px;
-    color: white;  
-    display: grid;
-    justify-content:flex-start;
-    text-align:start;
-    width: 430px;
+.allTime {
+    display: flex;
 }
+
+.days {
+    font-size: 60px;
+    margin: 0px 26px;
+}
+
+.hours {
+    font-size: 60px;
+    margin: 0px 26px;
+}
+
+.mins {
+    font-size: 60px;
+    margin: 0px 26px;
+}
+
+.sec {
+    font-size: 60px;
+    margin: 0px 26px;
+}
+
+.TimeText {
+    font-size: 20px;
+}
+
+.buyticket {
+
+    border-radius: 7px;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 15px;
+
+    /* Rectangle 9 */
+
+    box-sizing: border-box;
+
+
+    background: #EBF55D;
+    border: 0px;
+
+}
+.buyticket:hover{
+    transform: scale(1.1); /* 放大效果 */
+}
+
+.matchinfrotop{
+    display: flex;
+    justify-content: center;
+}
+
+.matchinfrodown{
+    display: flex;
+    justify-content: center;
+
+}
+
+.matchinfro {
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 20px;
+    width: 417px;
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin:20px 20px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /*animation: apprear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;*/
+}
+
+.matchinfro .down{
+    display: flex;
+    
+}
+
+
+
 /*--------------------------------footer-------------------------------------*/
 
 footer {
     width: 100%;
     background-color: #222222;
     margin-top: 40px;
-    
+
 }
 
 footer .partner {
@@ -172,7 +226,7 @@ footer .partner {
     display: flex;
 
     align-items: center;
-    padding-left: 49px ;
+    padding-left: 49px;
     /* justify-content: center; */
     font-size: 24px;
     color: #ECA100;
@@ -180,14 +234,14 @@ footer .partner {
 
     /* MAIN PERTNERS */
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-weight:900;
+    font-weight: 900;
     font-size: 24px;
 
     /* or 58% */
     letter-spacing: 0.01em;
 }
 
-footer .partnerIcon{
+footer .partnerIcon {
     display: flex;
     /* margin-left: 49px; */
     height: 173px;
@@ -195,26 +249,26 @@ footer .partnerIcon{
     justify-content: space-between;
 
     width: calc(100% - 98px);
-    margin:0px 49px;
+    margin: 0px 49px;
 }
 
-footer .partnerIcon  a .nike{
+footer .partnerIcon a .nike {
     width: 235px;
     margin-left: 160px;
 }
 
-footer .partnerIcon a .spofity{
+footer .partnerIcon a .spofity {
     width: 280px;
 }
 
-footer .partnerIcon a .tv{
+footer .partnerIcon a .tv {
     width: 370px;
 
     margin-top: 24px;
     margin-right: 37px;
 }
 
-footer .midarea{
+footer .midarea {
     height: 216px;
     display: flex;
     justify-content: space-between;
@@ -222,12 +276,12 @@ footer .midarea{
     padding: 0px 140px;
 }
 
-footer .midarea .contact{
+footer .midarea .contact {
     height: 216px;
     width: 404px;
 }
 
-footer .midarea .contact .contacttitle{
+footer .midarea .contact .contacttitle {
     height: 70px;
     width: 404px;
     display: flex;
@@ -236,10 +290,10 @@ footer .midarea .contact .contacttitle{
     color: white;
     font-size: 35px;
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-weight:normal;
+    font-weight: normal;
 }
 
-footer .midarea .contact .contactcontent{
+footer .midarea .contact .contactcontent {
     height: 132px;
     width: 404px;
     display: flex;
@@ -247,28 +301,28 @@ footer .midarea .contact .contactcontent{
     flex-direction: column;
 }
 
-footer .midarea .contact .contactcontent .line{
+footer .midarea .contact .contactcontent .line {
     width: 404px;
     text-align: center;
     color: white;
     font-size: 16px;
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
-    font-weight:normal;
+    font-weight: normal;
     line-height: 200%;
 }
 
-footer .midarea .social{
+footer .midarea .social {
     width: 480px;
     height: 216px;
 }
 
-footer .midarea .buttonarea{
+footer .midarea .buttonarea {
     width: 480px;
     display: flex;
     justify-content: space-between;
 }
 
-footer .midarea .social .socialtitle{
+footer .midarea .social .socialtitle {
     width: 100%;
     height: 55px;
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
@@ -281,61 +335,66 @@ footer .midarea .social .socialtitle{
     color: white;
 }
 
-footer .midarea .social .buttonarea .mobileTop{
+footer .midarea .social .buttonarea .mobileTop {
     display: none;
 }
 
-footer .midarea .social .buttonarea .mobileDown{
+footer .midarea .social .buttonarea .mobileDown {
     display: none;
 }
 
-footer .midarea .social .buttonarea a:hover{
-    transform: scale(1.1); /* 放大效果 */
-    border: 2px solid black; /* 添加黑框 */
+footer .midarea .social .buttonarea a:hover {
+    transform: scale(1.1);
+    /* 放大效果 */
+    border: 2px solid black;
+    /* 添加黑框 */
 }
 
-footer .midarea .social .buttonarea a:active{
-    color: black; /* 文字變黑 */
-    border: 2px solid black; /* 保持黑框 */
-    transform: scale(1); /* 恢復原始大小 */
+footer .midarea .social .buttonarea a:active {
+    color: black;
+    /* 文字變黑 */
+    border: 2px solid black;
+    /* 保持黑框 */
+    transform: scale(1);
+    /* 恢復原始大小 */
 }
 
-footer .midarea .social .buttonarea a .content.FB{
+footer .midarea .social .buttonarea a .content.FB {
     background-color: #3B5998;
 }
 
-footer .midarea .social .buttonarea a .content.X{
+footer .midarea .social .buttonarea a .content.X {
     background-color: #55ACEE;
 }
 
-footer .midarea .social .buttonarea a .content.yt{
+footer .midarea .social .buttonarea a .content.yt {
     background-color: #BB0000;
 }
 
-footer .midarea .social .buttonarea a .content.ig{
+footer .midarea .social .buttonarea a .content.ig {
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
 
 }
 
 
-footer .midarea .social .buttonarea a .content{
+footer .midarea .social .buttonarea a .content {
     width: 115px;
     height: 90px;
 }
 
 
-footer .midarea .social .buttonarea a .content img{
+footer .midarea .social .buttonarea a .content img {
     width: 28px;
     height: 28px;
 }
 
-footer .midarea .social .buttonarea a .content .igicon{
+footer .midarea .social .buttonarea a .content .igicon {
     width: 25px;
     height: 25px;
     margin: 2px 0px 0px 2px;
 }
 
-footer .midarea .social .buttonarea a .content .socialtext{
+footer .midarea .social .buttonarea a .content .socialtext {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -346,26 +405,26 @@ footer .midarea .social .buttonarea a .content .socialtext{
     /* flex-direction: column; */
 }
 
-footer .midarea .social .buttonarea a .content .insidetext{
+footer .midarea .social .buttonarea a .content .insidetext {
     width: 100%;
     color: white;
     margin-top: 2px;
-    margin:0px 0px 0px 5px;
+    margin: 0px 0px 0px 5px;
     text-decoration: none;
     font-family: "Barcelona", Arial, "Helvetica-Neue", Helvetica, sans-serif;
 
 }
 
-footer .midarea .social .buttonarea a{
+footer .midarea .social .buttonarea a {
     text-decoration: none;
 }
 
-footer .midarea .support{
+footer .midarea .support {
     width: 405px;
     height: 216px;
 }
 
-footer .midarea .support .supporttitle{
+footer .midarea .support .supporttitle {
     width: 210px;
     height: 70px;
     color: white;
@@ -378,13 +437,13 @@ footer .midarea .support .supporttitle{
     margin-left: 130px;
 }
 
-footer .midarea .support .supportcontent{
+footer .midarea .support .supportcontent {
     display: flex;
 }
 
 
 
-footer .midarea .support .contentleft{
+footer .midarea .support .contentleft {
     width: 105px;
     height: 146px;
     color: white;
@@ -394,7 +453,8 @@ footer .midarea .support .contentleft{
     font-size: 20px;
     margin-left: 130px;
 }
-footer .midarea .support .contentright{
+
+footer .midarea .support .contentright {
     width: 105px;
     height: 146px;
     color: white;
@@ -404,34 +464,30 @@ footer .midarea .support .contentright{
     font-size: 20px;
 }
 
-@media (max-width:768px)
-{
-    header
-    {
+@media (max-width:768px) {
+    header {
         width: 722px;
         height: 43px;
     }
-    header .nav_buttons
-    {
+
+    header .nav_buttons {
         width: 144.4px;
         height: 43px;
         font-size: 20px;
     }
-    header .nav_buttons img 
-    {
+
+    header .nav_buttons img {
         height: 43px;
     }
 
-    section .picture
-    {
+    section .picture {
         width: 730px;
         height: 319px;
         margin: 0px;
         margin: auto;
     }
 
-    section .picture img
-    {
+    section .picture img {
         width: 730px;
         height: 319px;
     }
@@ -454,16 +510,16 @@ footer .midarea .support .contentright{
         font-size: 20px;
         margin: auto;
         margin-bottom: 10px;
-        animation:unset;
+        animation: unset;
     }
-    
+
     section .ChampionsLeague .CHpiture {
         width: 280px;
         display: flex;
         align-items: center;
     }
 
-    section .ChampionsLeague .CHpiture img{
+    section .ChampionsLeague .CHpiture img {
         width: 280px;
         height: 165px;
     }
@@ -482,13 +538,11 @@ footer .midarea .support .contentright{
         width: 430px;
     }
 
-    footer
-    {
+    footer {
         width: 100%;
     }
 
-    footer .partner
-    {
+    footer .partner {
         width: 160px;
         height: 27px;
         font-size: 15px;
@@ -501,7 +555,7 @@ footer .midarea .support .contentright{
         margin: 0 23px 0 23px;
     }
 
-    footer .partnerIcon a .nike{
+    footer .partnerIcon a .nike {
         width: 146px;
         height: 52px;
         margin-left: 43px;
@@ -618,40 +672,37 @@ footer .midarea .support .contentright{
     }
 }
 
-@media (max-width:430px)
-{
-    header
-    {
+@media (max-width:430px) {
+    header {
         width: 100%;
         height: 33px;
         margin-top: 0px;
     }
 
-    header a{
+    header a {
         width: 20%;
     }
 
-    header .nav_buttons
-    {
+    header .nav_buttons {
         width: 100%;
         height: 33px;
         font-size: 15px;
     }
-    header .nav_buttons img 
-    {
+
+    header .nav_buttons img {
         height: 33px;
     }
 
     section {
-        width:100%;
+        width: 100%;
         margin-top: 15px;
     }
 
     section.down {
-        width:100%;
+        width: 100%;
         margin-top: 15px;
     }
-    
+
     section .contenttext {
         width: 100%;
         margin: auto;
@@ -662,16 +713,15 @@ footer .midarea .support .contentright{
         line-height: 15px;
         padding: 5px;
     }
-    section .contenttext .picture
-    {
+
+    section .contenttext .picture {
         width: 100%;
         height: 143px;
         margin: 0px;
         margin: auto;
     }
 
-    section .contenttext .picture img
-    {
+    section .contenttext .picture img {
         width: 100%;
         height: 143px;
     }
@@ -686,14 +736,14 @@ footer .midarea .support .contentright{
         margin-bottom: 10px;
         animation: unset;
     }
-    
+
     section .ChampionsLeague .CHpiture {
         width: 122px;
         display: flex;
         align-items: center;
     }
-    
-    section .ChampionsLeague .CHpiture img{
+
+    section .ChampionsLeague .CHpiture img {
         width: 122px;
         height: 66px;
     }
@@ -717,14 +767,12 @@ footer .midarea .support .contentright{
         height: 65px;
     }
 
-    footer
-    {
+    footer {
         width: 100%;
         margin-top: 10px;
     }
 
-    footer .partner
-    {
+    footer .partner {
         width: 96px;
         height: 16px;
         font-size: 10px;
@@ -739,13 +787,13 @@ footer .midarea .support .contentright{
         padding: 0 10px;
     }
 
-    footer .partnerIcon a{
+    footer .partnerIcon a {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    footer .partnerIcon a .nike{
+    footer .partnerIcon a .nike {
         width: 67px;
         height: 24px;
         margin-left: 0px;
@@ -801,15 +849,15 @@ footer .midarea .support .contentright{
     footer .midarea .buttonarea {
         width: 100%;
         height: 86px;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: space-evenly;
     }
 
-    footer .midarea .social .buttonarea a{
+    footer .midarea .social .buttonarea a {
         display: none;
     }
 
-    footer .midarea .social .buttonarea .mobileTop{
+    footer .midarea .social .buttonarea .mobileTop {
         width: 100%;
         height: 43px;
         display: flex;
@@ -817,12 +865,12 @@ footer .midarea .support .contentright{
         padding: 0 20px 0 20px;
     }
 
-    footer .midarea .social .buttonarea .mobileTop a{
+    footer .midarea .social .buttonarea .mobileTop a {
         display: block;
         margin: 5px 0px 5px 0px;
     }
 
-    footer .midarea .social .buttonarea .mobileDown{
+    footer .midarea .social .buttonarea .mobileDown {
         width: 100%;
         height: 43px;
         display: flex;
@@ -830,7 +878,7 @@ footer .midarea .support .contentright{
         padding: 0 20px 0 20px;
     }
 
-    footer .midarea .social .buttonarea .mobileDown a{
+    footer .midarea .social .buttonarea .mobileDown a {
         display: block;
         margin: 5px 0px 5px 0px;
     }
@@ -876,6 +924,7 @@ footer .midarea .support .contentright{
         text-align: center;
         line-height: 20px;
     }
+
     footer .midarea .support .supportcontent {
         display: flex;
         flex-direction: column;
