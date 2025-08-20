@@ -1,31 +1,39 @@
-// server.js
-const express = require('express');
-const cors = require('cors');
-
-const API_KEY = '56ecb382ac6840e88df89ba626eb7004'; // 只放在後端
-const PORT = 3000;
+import express from "express";
+import cors from "cors";
 
 const app = express();
+const PORT = 3000;
 
-// 允許任何前端來源來呼叫這個代理（開發期方便）
-app.use(cors());
+app.use(cors()); // ⭐ 開放所有來源存取
 
-app.get('/api/matches', async (req, res) => {
-  const teamId = req.query.teamId || 81; // 預設 Barcelona
-  const status = req.query.status || 'SCHEDULED,FINISHED';
+// ⚠️ 換成你自己的 Sportradar API KEY
+const API_KEY = "kI3HDbMkWOHmvxYCgWu81gcCBOXTDJ3EVeMVyo0D";
+const TEAM_ID = "sr:competitor:2817";
 
+app.get("/api/barca/schedule", async (req, res) => {
   try {
-    const url = `https://api.football-data.org/v4/teams/${teamId}/matches?status=${encodeURIComponent(status)}`;
-    const r = await fetch(url, {
-      headers: { 'X-Auth-Token': API_KEY }
-    });
-    const text = await r.text(); // 保留原始回應
-    res.status(r.status).type(r.headers.get('content-type') || 'application/json').send(text);
+    const url = `https://api.sportradar.com/soccer/trial/v4/en/competitors/${TEAM_ID}/schedules.json?api_key=${API_KEY}`;
+    console.log("➡️ Fetching from Sportradar:", url);
+
+    const response = await fetch(url);
+    console.log("Sportradar status:", response.status);
+
+    if (!response.ok) {
+      const errText = await response.text();
+      console.error("❌ Sportradar error:", errText);
+      return res.status(response.status).send(errText);
+    }
+
+    const data = await response.json();
+    console.log("✅ Successfully fetched schedule");
+    res.json(data);
   } catch (err) {
-    res.status(500).json({ error: 'Proxy error', details: String(err) });
+    console.error("💥 Proxy crashed:", err);
+    res.status(500).json({ error: err.message });
   }
 });
 
+
 app.listen(PORT, () => {
-  console.log(`Proxy server running at http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
