@@ -1,6 +1,6 @@
 // matchinfo.js
 const TEAM_ID = "sr:competitor:2817"; // Barcelona
-const API_BASE = "http://localhost:3000/api"; // 後端 proxy
+const API_BASE = "https://midtremweb.onrender.com/api"; // 後端 proxy
 const CREST_BASE_URL = "https://api.sportradar.com"; // Sportradar 圖片根 URL
 const PLACEHOLDER_CREST = "FC_Barcelona_(crest).png"; // 本地 fallback
 
